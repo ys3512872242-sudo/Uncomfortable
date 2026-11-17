@@ -1,0 +1,17 @@
+《我不舒服！》云端与模型配置说明
+
+当前已接入：
+1. 邀请码账号：每个邀请码对应一份独立的云端数据。
+2. 云端同步：个人名片、对话与复盘卡片、花园位置、洞洞板布局。
+3. 继续对话：从旧卡片或花朵继续聊时，更新原记录，不重复生成。
+4. 本地服务商：用户添加的 API 地址、模型名和 Key 只保存在当前浏览器。
+
+Supabase 项目：wo-bu-shufu
+邀请码函数：https://hehzkcipnogvnvmhpxmf.supabase.co/functions/v1/invite-data
+模型代理函数：https://hehzkcipnogvnvmhpxmf.supabase.co/functions/v1/emotion-chat
+默认评审邀请码：BLOOM2026
+
+默认模型已在 Supabase 服务端启用，并于 2026-11-18 完成真实请求测试。
+服务商地址、模型名称和 Key 均不写入 GitHub 前端文件。
+体验者仍可在“连接模型”中添加自己的 OpenAI 兼容服务商，本地配置优先于默认模型。
+不要把 API Key、管理员密码或其他密钥写进 GitHub 文件。
